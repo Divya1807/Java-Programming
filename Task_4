@@ -1,0 +1,13 @@
+package my_daily_tasks;
+import java.util.Scanner;
+public class Tables_to20 {
+public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter your number to calculate the table up to 20 times:");
+	int n=sc.nextInt();
+	for(int i=1;i<=20;i++) {
+		int tab=n*i;
+		System.out.println(n+ " x " +i +" = "+tab);
+	}
+}
+}
