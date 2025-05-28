@@ -1,0 +1,25 @@
+package my_daily_tasks;
+import java.util.Scanner;
+public class Task_4_Grades {
+public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter the Result:");
+	int res=sc.nextInt();
+	if(res>=90 && res<=100) {
+		System.out.println("Grade-A");
+	}
+	else if(res>=70 && res<90) {
+		System.out.println("Grade-B");
+	}
+	else if(res>=50 && res<70) {
+		System.out.println("Grade-C");
+	}
+	else if(res>=0 && res<50) {
+		System.out.println("Fail");
+	}
+	else {
+		System.out.println("Invalid");
+	}
+	
+}
+}
