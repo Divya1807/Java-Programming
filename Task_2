@@ -1,0 +1,23 @@
+//     ***  8 DataTypes with Naming Conventions ***  
+package my_daily_tasks;
+public class MyTask_1_DataTypes {
+public static void main(String[] args) {
+	byte age=100;
+	short deptCode=3211;
+	int student_Id=2147454476;
+	long accountNum=991994993999999999L;
+	float cgpa=95.50f;
+	double fees=5000000.65;
+	char gender='F';
+	boolean dueCompleted=true;
+	System.out.println("Student Id: "+student_Id);
+	System.out.println("Male/Female: "+gender);
+	System.out.println("My Age is: "+age);
+	System.out.println("Department Code: "+deptCode);
+	System.out.println("Your Bank Account Number: "+accountNum);
+	System.out.println("Total CGPA: "+cgpa);
+	System.out.println("Remaining Fees due is: "+fees);
+	System.out.println("Is the Due is Completed: "+dueCompleted);
+}
+
+}
