@@ -1,0 +1,20 @@
+package my_daily_tasks;
+import java.util.Scanner;
+public class Task_5_1_Order_Menu {
+public static void main(String[] args) {
+	System.out.println("Chicken 65");
+	System.out.println("Paneer");
+	System.out.println("Chicken Biryani");
+	Scanner sc=new Scanner(System.in);
+	 int a=sc.nextInt();
+	 switch(a) {
+	 case 1: System.out.println("Here is Your Chicken 65\nEnjoy it....");
+	 break;
+	 case 2: System.out.println("Here is Your Paneer\nEnjoy it....");
+	 break;
+	 case 3: System.out.println("Here is Your Chicken Biryani\nEnjoy it....");
+	 break;
+	 default: System.out.println("Invalid");
+	 }
+}
+}
