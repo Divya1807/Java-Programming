@@ -1,0 +1,12 @@
+//Object Creation
+package my_daily_tasks;
+public class Basic {
+	static int c=10;
+	int a=20;
+	int b=30;
+	public static void main(String[] args) {
+		System.out.println("This is my First program...my age is " +c);
+		Basic bas=new Basic();
+		System.out.println("My Marks Percentage:"+(bas.a + bas.b));
+	}
+	}
