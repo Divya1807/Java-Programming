@@ -1,0 +1,25 @@
+package my_daily_tasks;
+import java.util.Scanner;
+public class Task_5_7_TaxDeduction {
+public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter Your Salary:");
+	int sal=sc.nextInt();
+	int tax;
+	if(sal>=1000000) {
+		tax=(30*sal)/100;
+		System.out.println(tax+ "- 30% tax");
+	}
+	else if(sal>=500000 && sal<1000000) {
+		tax=(20*sal)/100;
+		System.out.println(tax+ "- 20% tax");
+	}
+	else if(sal>=250000 && sal<500000) {
+		tax=(5*sal)/100;
+		System.out.println(tax+ "- 5% tax");
+	}
+	else {
+		System.out.println("No Tax");
+	}
+}
+}
