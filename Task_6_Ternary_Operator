@@ -1,0 +1,11 @@
+package my_daily_tasks;
+import java.util.Scanner;
+public class Task_3_Ternary {
+public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter a result:");
+	int res=sc.nextInt();
+	String grade=(res>90) && (res<=100)? "Grade - A" :(res>70) && (res<=90)? "Grade - B":(res>50)&&(res<=70)? "Grade - C" :(res>0)&&(res<=50)? "Fail": "Invalid";
+	System.out.println("Result is :" +grade);
+}
+}
