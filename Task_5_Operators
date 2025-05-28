@@ -1,0 +1,39 @@
+//Relational Operators
+package my_daily_tasks;
+
+public class Task_2_Relational {
+public static void main(String[] args) {
+	int a=10;
+	int b=20;	
+	System.out.println("Here a -->" +a +","+ "b -->" +b );
+	boolean c= a<b;
+	System.out.println("a<b = "+c);
+	boolean d= a>b;
+	System.out.println("a>b = "+d);
+	boolean e= a<=b;
+	System.out.println("a<=b is "+e);
+	boolean f= a>=b;
+	System.out.println("a>=b is "+f);
+	boolean g= a!=b;
+	System.out.println("a!=b is "+g);
+	boolean h= a==b;
+	System.out.println("a==b is "+h);
+	
+// Unary Operators
+	short x=50;
+	short y=-10;
+	int p=-x;
+	int q=+y;
+	boolean z=true;
+	System.out.println("x is 50:"+p);
+	System.out.println("y is -10:"+q);//for negative value - * + = -
+	System.out.println("y is -10:"+q);
+	System.out.println("z is true="+ !z);
+	
+// Increment / Decrement
+	System.out.println( "x++ is:"+x++);//use once next increment
+	System.out.println("++x is:"+ ++x);//direct increment and execute
+	System.out.println("x-- is:"+ x--);//use once next decrement
+	System.out.println("--x is:"+ --x); //Direct decrement
+}
+}
